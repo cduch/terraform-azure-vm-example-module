@@ -11,7 +11,7 @@ variable "location" {
 
 variable "owner" {
   type    = string
-  default = "carsten@hashicorp.com"
+  description = "Owner which will be added as a tag to the resource group."
 }
 
 
