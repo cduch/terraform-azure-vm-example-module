@@ -16,7 +16,7 @@ resource "azurerm_resource_group" "rg" {
   name     = "${var.prefix}rg${var.suffix}"
   location = var.location
   tags = {
-    "owner" = var.owner != "" ? var.owner : Null
+    "owner" = var.owner != "" ? var.owner : null
   }
 }
 
